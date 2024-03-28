@@ -1,0 +1,49 @@
+* { 
+    box-sizing: border-box;
+}
+
+body{ 
+
+    display: flex;
+    flex-direction: column;
+    background-image: url("fall.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    color:ghostwhite;
+}
+
+h1 { 
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.big-text { 
+    font-weight: bold; 
+    font-size: 6rem;
+    line-height: 1;
+    padding: 15px;
+}
+
+.countdown-el { 
+    text-align: center;
+}
+
+.countdown-el span { 
+    font-size: 2rem;
+}
+
+.form { 
+    font-size: 2rem;
+}
